@@ -2,7 +2,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { Toaster } from 'react-hot-toast'
 import { ThemeProvider } from './context/ThemeContext.jsx'
 import AppRoutes from './routes/AppRoutes'
-import ScrollToTop from './components/common/ScrollToTop'
+import ScrollToTop from './components/common/ScrollTOTop.jsx'
 
 function App() {
   return (
