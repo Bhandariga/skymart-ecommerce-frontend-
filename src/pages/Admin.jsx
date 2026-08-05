@@ -61,10 +61,8 @@ const Admin = () => {
         <div className="bg-white dark:bg-gray-900 rounded-lg shadow-sm p-6">
           <h2 className="text-xl font-bold mb-4">Quick Actions</h2>
           <div className="space-y-2">
-            <button className="btn-primary w-full">Add New Product</button>
-            <button className="btn-secondary w-full">Manage Orders</button>
-            <button className="btn-secondary w-full">Manage Users</button>
-            <button className="btn-secondary w-full">View Reports</button>
+            <Link to="/shop" className="btn-primary w-full inline-block text-center">View Products</Link>
+            <Link to="/orders" className="btn-secondary w-full inline-block text-center">View Orders</Link>
           </div>
         </div>
       </div>

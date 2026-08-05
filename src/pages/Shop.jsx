@@ -89,7 +89,7 @@ const Shop = () => {
 
       <div className="grid gap-8 lg:grid-cols-[280px_minmax(0,1fr)]">
         <div>
-          <ProductFilter categories={categories} />
+          <ProductFilter />
         </div>
         <div>
           {loading ? (

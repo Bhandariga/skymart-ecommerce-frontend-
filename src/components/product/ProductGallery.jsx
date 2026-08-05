@@ -2,7 +2,7 @@ import { useState } from 'react'
 import ImageWithFallback from '../common/ImageWithFallback'
 
 const ProductGallery = ({ images, name }) => {
-  const [selectedImage, setSelectedImage] = useState(images[0] || '')
+  const [selectedImage, setSelectedImage] = useState((images && images.length > 0) ? images[0] : '')
 
   return (
     <div className="space-y-4">
@@ -12,7 +12,7 @@ const ProductGallery = ({ images, name }) => {
         </div>
       </div>
 
-      {images.length > 1 && (
+      {images && images.length > 1 && (
         <div className="grid grid-cols-4 gap-2">
           {images.map((image, index) => (
             <button
