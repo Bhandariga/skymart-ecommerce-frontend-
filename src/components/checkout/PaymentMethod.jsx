@@ -1,4 +1,3 @@
-// src/components/checkout/PaymentMethod.jsx
 import { useState } from 'react'
 
 const PaymentMethod = ({ selected, onChange }) => {

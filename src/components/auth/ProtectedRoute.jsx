@@ -1,4 +1,3 @@
-// src/components/auth/ProtectedRoute.jsx
 import { Navigate } from 'react-router-dom'
 import { useAuth } from '../../hooks/useAuth'
 import Loader from '../common/Loader'

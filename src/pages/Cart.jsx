@@ -1,4 +1,3 @@
-// src/pages/Cart.jsx
 import { Link } from 'react-router-dom'
 import { useCart } from '../hooks/useCart'
 import { USD_TO_NPR } from '../utils/currency'

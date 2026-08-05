@@ -1,4 +1,3 @@
-// src/pages/Login.jsx
 import { Link } from 'react-router-dom'
 import { useEffect, useRef } from 'react'
 import { useSelector } from 'react-redux'

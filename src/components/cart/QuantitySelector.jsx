@@ -1,4 +1,3 @@
-// src/components/cart/QuantitySelector.jsx
 const QuantitySelector = ({ quantity, onIncrease, onDecrease, max = 99 }) => {
   return (
     <div className="flex items-center space-x-2">

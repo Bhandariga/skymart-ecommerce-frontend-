@@ -1,4 +1,3 @@
-// src/hooks/useWishlist.js
 import { useSelector, useDispatch } from 'react-redux'
 import { addToWishlist, removeFromWishlist, clearWishlist } from '../redux/slices/wishlistSlice'
 import { saveToStorage } from '../utils/localStorage'

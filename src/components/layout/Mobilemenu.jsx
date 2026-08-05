@@ -1,4 +1,3 @@
-// src/components/layout/MobileMenu.jsx
 import { Link } from 'react-router-dom'
 
 const MobileMenu = ({ isOpen, onClose, isAuthenticated, onLogout, cartCount, wishlistCount }) => {

@@ -1,4 +1,3 @@
-// src/hooks/useAuth.js
 import { useSelector, useDispatch } from 'react-redux'
 import { logout, setUser, setToken } from '../redux/slices/authSlice'
 import { loadFromStorage, saveToStorage, removeFromStorage } from '../utils/localStorage'

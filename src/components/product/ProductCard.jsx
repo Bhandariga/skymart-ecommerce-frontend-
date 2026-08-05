@@ -1,4 +1,3 @@
-// src/components/product/ProductCard.jsx
 import { Link } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { addToCart } from '../../redux/slices/cartSlice'

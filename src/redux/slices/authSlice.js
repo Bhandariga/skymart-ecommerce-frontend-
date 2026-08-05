@@ -1,4 +1,3 @@
-// src/redux/slices/authSlice.js
 import { createSlice } from '@reduxjs/toolkit'
 import { loadFromStorage } from '../../utils/localStorage'
 import { STORAGE_KEYS } from '../../utils/constants'

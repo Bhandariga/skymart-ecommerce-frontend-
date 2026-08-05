@@ -1,4 +1,3 @@
-// src/components/product/ProductGrid.jsx
 import ProductCard from './ProductCard'
 
 const ProductGrid = ({ products, columns = 3 }) => {

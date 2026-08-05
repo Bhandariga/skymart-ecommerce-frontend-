@@ -1,4 +1,3 @@
-// src/pages/Admin.jsx
 import { useSelector } from 'react-redux'
 import { useAuth } from '../hooks/useAuth'
 import { Link } from 'react-router-dom'

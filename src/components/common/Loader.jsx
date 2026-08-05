@@ -1,4 +1,3 @@
-// src/components/common/Loader.jsx
 const Loader = ({ size = 'md', className = '' }) => {
   const sizes = {
     sm: 'w-5 h-5',

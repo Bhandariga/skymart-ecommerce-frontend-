@@ -1,4 +1,3 @@
-// src/pages/Profile.jsx
 import { useAuth } from '../hooks/useAuth'
 
 const Profile = () => {

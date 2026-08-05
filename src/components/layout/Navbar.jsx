@@ -1,4 +1,3 @@
-// src/components/layout/Navbar.jsx
 import { useState, useEffect } from 'react'
 import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'

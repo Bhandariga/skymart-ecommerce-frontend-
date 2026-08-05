@@ -1,4 +1,3 @@
-// src/components/layout/Footer.jsx
 const Footer = () => {
   return (
     <footer className="mt-16 border-t border-gray-200 dark:border-gray-700 bg-[#0B0F19] text-white">

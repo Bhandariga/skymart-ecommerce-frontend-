@@ -1,4 +1,3 @@
-// src/components/auth/RegisterForm.jsx
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../../hooks/useAuth'
@@ -42,7 +41,6 @@ const RegisterForm = () => {
       return
     }
 
-    // Simulate registration - in real app, this would be an API call
     login({ name: formData.name, email: formData.email }, 'fake-token-123')
     navigate('/')
   }

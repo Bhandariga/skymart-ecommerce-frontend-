@@ -1,4 +1,3 @@
-// src/pages/Wishlist.jsx
 import { Link } from 'react-router-dom'
 import { useWishlist } from '../hooks/useWishlist'
 import ProductGrid from '../components/product/ProductGrid'

@@ -1,4 +1,3 @@
-// src/components/product/Rating.jsx
 const Rating = ({ rating, reviews }) => {
   const stars = Array.from({ length: 5 }, (_, i) => i + 1)
 

@@ -1,4 +1,3 @@
-// src/components/cart/CartItem.jsx
 import { useDispatch } from 'react-redux'
 import { removeFromCart, increaseQuantity, decreaseQuantity } from '../../redux/slices/cartSlice'
 import { formatNpr } from '../../utils/currency'

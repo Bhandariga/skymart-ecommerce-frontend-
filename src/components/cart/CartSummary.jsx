@@ -1,4 +1,3 @@
-// src/components/cart/CartSummary.jsx
 import { Link } from 'react-router-dom'
 import { formatNpr } from '../../utils/currency'
 

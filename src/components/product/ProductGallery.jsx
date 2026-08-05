@@ -1,4 +1,3 @@
-// src/components/product/ProductGallery.jsx
 import { useState } from 'react'
 import ImageWithFallback from '../common/ImageWithFallback'
 

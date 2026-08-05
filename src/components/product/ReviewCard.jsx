@@ -1,4 +1,3 @@
-// src/components/product/ReviewCard.jsx
 const ReviewCard = ({ review }) => {
   return (
     <div className="border-b border-gray-200 dark:border-gray-700 py-4 last:border-0">

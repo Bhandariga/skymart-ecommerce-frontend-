@@ -1,4 +1,3 @@
-// src/utils/localStorage.js
 export const loadFromStorage = (key) => {
   try {
     const data = localStorage.getItem(key)

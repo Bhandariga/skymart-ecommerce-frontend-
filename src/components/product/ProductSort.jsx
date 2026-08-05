@@ -1,4 +1,3 @@
-// src/components/product/ProductSort.jsx
 import { useDispatch, useSelector } from 'react-redux'
 import { setSortBy } from '../../redux/slices/productSlice'
 import { SORT_OPTIONS } from '../../utils/constants'

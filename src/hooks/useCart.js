@@ -1,4 +1,3 @@
-// src/hooks/useCart.js
 import { useSelector, useDispatch } from 'react-redux'
 import { addToCart, removeFromCart, increaseQuantity, decreaseQuantity, clearCart } from '../redux/slices/cartSlice'
 import { saveToStorage } from '../utils/localStorage'

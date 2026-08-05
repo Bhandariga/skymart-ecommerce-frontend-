@@ -1,4 +1,3 @@
-// src/pages/Register.jsx
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { useEffect, useRef } from 'react'
 import { useSelector } from 'react-redux'

@@ -1,4 +1,3 @@
-// src/pages/Orders.jsx
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { formatNpr } from '../utils/currency'

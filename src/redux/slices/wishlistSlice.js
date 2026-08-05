@@ -1,4 +1,3 @@
-// src/redux/slices/wishlistSlice.js
 import { createSlice } from '@reduxjs/toolkit'
 import { loadFromStorage, saveToStorage } from '../../utils/localStorage'
 import { STORAGE_KEYS } from '../../utils/constants'

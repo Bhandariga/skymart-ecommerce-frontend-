@@ -1,4 +1,3 @@
-// src/components/common/EmptyState.jsx
 const EmptyState = ({ icon, title, description, action }) => {
   return (
     <div className="text-center py-12">

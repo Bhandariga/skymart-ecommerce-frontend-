@@ -1,4 +1,3 @@
-// src/components/auth/LoginForm.jsx
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useAuth } from '../../hooks/useAuth'
@@ -31,7 +30,6 @@ const LoginForm = () => {
       return
     }
 
-    // Simulate login - in real app, this would be an API call
     login({ email: formData.email, name: 'User' }, 'fake-token-123')
     navigate('/')
   }

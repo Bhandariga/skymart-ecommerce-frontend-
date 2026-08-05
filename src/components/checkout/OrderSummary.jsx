@@ -1,4 +1,3 @@
-// src/components/checkout/OrderSummary.jsx
 import { formatNpr } from '../../utils/currency'
 
 const OrderSummary = ({ items, subtotal, shipping, tax, total }) => {
